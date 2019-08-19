@@ -1,6 +1,6 @@
 {
-    "name": "meisam-mulla/laravel-plivo",
-    "description": "A Plivo-PHP Wrapper for Laravel",
+    "name": "philsam/laravel-plivo",
+    "description": "A Plivo-PHP Wrapper for Laravel - Forked from MeisamMulla/laravel-plivo",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -23,7 +23,7 @@
     {
         "psr-4":
         {
-            "MeisamMulla\\Plivo\\": "src"
+            "Philsam\\Plivo\\": "src"
         }
     },
     "extra":
@@ -31,11 +31,11 @@
         "laravel":
         {
             "providers": [
-                "MeisamMulla\\Plivo\\ServiceProvider"
+                "Philsam\\Plivo\\ServiceProvider"
             ],
             "aliases":
             {
-                "Plivo": "MeisamMulla\\Plivo\\Facade"
+                "Plivo": "Philsam\\Plivo\\Facade"
             }
         }
     },
