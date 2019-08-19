@@ -1,5 +1,5 @@
 <?php
-namespace MeisamMulla\Plivo;
+namespace Philsam\Plivo;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 
