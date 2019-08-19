@@ -1,6 +1,6 @@
 <?php
 
-namespace MeisamMulla\Plivo;
+namespace Philsam\Plivo;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 use Plivo\RestAPI as PlivoAPI;
